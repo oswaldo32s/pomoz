@@ -1,10 +1,13 @@
+import { Outlet } from "react-router";
+import Header from "./components/Header/Header";
 
 
 function App() {
 
   return (
     <>
-      <p>Si esta funcionado?</p>
+      < Header />
+      <Outlet />
     </>
   )
 }
